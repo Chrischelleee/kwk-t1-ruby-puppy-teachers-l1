@@ -5,8 +5,8 @@ class Dog
     @@all << self
   end
   def self.all
-    @@all.each do |song|
-      puts song.name
+    @@all.each do |dogs|
+      puts dogs.name
     end
   end
 end
